@@ -1,0 +1,24 @@
+﻿Build started 8/24/2020 1:54:37 AM.
+Project "C:\JitenderN\REBook\Array\Array\Array.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\Array.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Array.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+  stdafx.cpp
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Array.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Array.cpp
+  Array.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\JitenderN\REBook\Array\Debug\Array.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Array.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\JitenderN\REBook\Array\Debug\Array.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\JitenderN\REBook\Array\Debug\Array.lib" /MACHINE:X86 Debug\Array.obj
+  Debug\stdafx.obj
+Array.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Array.vcxproj -> C:\JitenderN\REBook\Array\Debug\Array.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\JitenderN\REBook\Array\Debug\Array.exe;#1" /manifest Debug\Array.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Debug\Array.unsuccessfulbuild".
+  Touching "Debug\Array.lastbuildstate".
+Done Building Project "C:\JitenderN\REBook\Array\Array\Array.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
